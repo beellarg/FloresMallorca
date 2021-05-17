@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    justify-content: center;    
+    background-color: #E5E5E5;
+}
+        .contenido{
+            padding: 20px;
+            width: 1440px;
+}
+h1{
+   
+   text-align: center;
+}
+/*HEADER  */
+header, body{
+    justify-content: space-between;
+}
+/* Logo SVG */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    .logo{
+        padding-bottom: 2%;
+
+    }
+/* Menu horizontal a la izquierda */
+    .menuPrincipal{
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+    }
+            .menuPrincipal__contactar{}
+            .menuPrincipal__galeria{}
+            .menuPrincipal__inicio{}
+            .menuPrincipal__servicios{}
+/* MAIN */
+.Banner{
+    width: 100%;
+}
+
+.zonasuperior{
+
+}
+    .zonasuperior__flores{}
+    .zonasuperior__flores-texto{}
+    .zonasuperior__floresfoto{
+    }
+    .zonasuperior__florestexto{}
+    
+.zonaInferior{}
+    .zonaInferior__casas{}
+    .zonaInferior__casas-texto{}
+    .zonaInferior__casas-texto-parrafo{}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #647378;
+    color:#FFFFFF;
+    
+}
+
+.social{
+    list-style-type: none;
+    display: inline block;
+    padding-left: 2%;
+    padding-right: 0%;
+    
+
+    
+}
+    .social__instagram{}
+    .social__pinterest{}
+    .social__titulo{}
+    .social__twiter{}
+
+.legal{
+    list-style-type: none;
+    padding-left: 2%;
+    
+}
+    .legal__cookies{}
+    .legal__legal{}
+    .legal__terminos{}
+
+.copyright{
+    padding: 50px;
+    padding: 5%;
+    padding-right: 10%;
+
+}
+
+
+
